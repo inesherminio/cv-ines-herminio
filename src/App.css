@@ -1,48 +1,12 @@
 .App {
-    text-align: center;
+  font-family: monospace;
 }
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
+/* Particle */
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
-}
-
-.App-header {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-}
-
-.App-link {
-    color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-#tsparticles {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    left: 0;
-    top: 0;
-    z-index: -1;
+.tsparticles-canvas-el {
+  background: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff);
+  position: fixed;
+  width: 100%;
+  z-index: -1 !important;
 }

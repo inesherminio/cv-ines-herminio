@@ -1,0 +1,61 @@
+.area-title-color {
+  color: white;
+  font-size: 2rem;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.skills-container {
+  background-color: white;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 35%);
+  border-radius: 8px;
+  margin: 10px 20px;
+  padding: 15px;
+  width: max-content;
+}
+
+.skills-sub-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.type-title {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.skills-section {
+  height: max-content;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 95%;
+}
+
+.skill-types {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .type-title {
+    font-size: 1.2rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .skill-types {
+    align-items: flex-start;
+    flex-direction: row;
+  }
+}

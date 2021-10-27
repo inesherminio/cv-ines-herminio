@@ -1,0 +1,102 @@
+hr {
+  color: rgb(175, 175, 175);
+  margin: 0 25px !important;
+}
+
+.portfolio-details {
+  background-color: white !important;
+  margin-bottom: 3vh;
+  min-height: max-content;
+  padding: 0 25px;
+}
+
+.portfolio-description {
+  margin: 0;
+}
+
+.portfolio-elem-container {
+  margin: 20px;
+  margin-bottom: 3vh;
+  padding-bottom: 7vh;
+  width: 90% !important;
+}
+
+.portfolio-link {
+  color: #212529b6;
+  display: block;
+  font-size: 0.9rem;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.portfolio-links {
+  background-color: white !important;
+  margin-bottom: 10px;
+  padding: 0 25px;
+}
+
+.portfolio-link:hover {
+  color: #212529;
+}
+
+.portfolio-technologies {
+  padding: 25px;
+}
+
+.portfolio-title {
+  background-color: #212529;
+  color: white;
+  margin-top: 20px;
+  width: fit-content;
+}
+
+.technologies-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.technologies {
+  background-color: #fb8014be;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+
+.technologies-title {
+  margin: 0;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .portfolio-elem-container {
+    width: 70% !important;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+  }
+
+  .portfolio-details {
+    background-color: white !important;
+    height: 40%;
+    padding: 0 25px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .portfolio-elem-container {
+    width: 40% !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .portfolio-elem-container {
+    width: 35% !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .portfolio-elem-container {
+    width: 30% !important;
+  }
+}

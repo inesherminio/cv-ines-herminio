@@ -1,0 +1,20 @@
+.container-fluid {
+  box-shadow: 0 0.2rem 0.2rem rgb(0 0 0 / 15%);
+  height: 8vh;
+}
+
+.name {
+  display: inline-block;
+  top: 0;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+}

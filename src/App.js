@@ -1,40 +1,28 @@
-import React from 'react';
+import React from "react";
 import Particles from "react-tsparticles";
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import LowBar from "./components/ColorBar/LowBar/LowBar";
+import TopBar from "./components/ColorBar/TopBar/TopBar";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
 import particlesOptions from "./particles.json";
+import Porfolio from "./components/Portfolio/Porfolio";
+import Skills from "./components/Skills/Skills";
+import Experiences from "./components/Experiences/Experiences";
 
 function App() {
-    return (
-        <div className="App">
-            <Particles options={particlesOptions}/>
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo"/>
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <p>
-                    Edit <code>src/particles.json</code> to customize Particles, then save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-                <a
-                    className="App-link"
-                    href="https://particles.js.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    See Particles samples
-                </a>
-            </header>
-        </div>
-    );
+  return (
+    <div className="App">
+      <Particles options={particlesOptions} width="20px" height="20%" />
+      <TopBar />
+      <Header />
+      <Main />
+      <Porfolio />
+      <Skills />
+      <Experiences />
+      <LowBar />
+    </div>
+  );
 }
 
 export default App;

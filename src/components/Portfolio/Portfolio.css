@@ -1,0 +1,40 @@
+.area-title-white {
+  font-size: 2rem;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80%;
+  justify-content: center;
+}
+
+.portfolio-container {
+  background-color: white;
+  height: max-content;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .area-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .area-title {
+    font-size: 2rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .area-title {
+    font-size: 2.5rem;
+  }
+}

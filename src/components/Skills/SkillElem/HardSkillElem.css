@@ -1,0 +1,10 @@
+.each-skill {
+  margin: 10px;
+  width: 30px;
+}
+
+@media (min-width: 576px) {
+  .each-skill {
+    width: 50px;
+  }
+}

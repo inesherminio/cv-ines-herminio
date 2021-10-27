@@ -1,0 +1,125 @@
+.contact-icon {
+  color: white;
+}
+
+.contact-icon:hover {
+  transform: scale(1.1);
+}
+
+.highlited-info {
+  background-color: #212529;
+  color: white;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px auto;
+  width: 50%;
+}
+
+.icon-link {
+  width: 100px;
+}
+
+.info-container {
+  margin: 0;
+  min-height: max-content;
+  width: 80%;
+}
+
+.main-container {
+  align-items: center;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  min-height: max-content;
+  width: 100%;
+}
+
+.my-intro {
+  color: white;
+  font-size: 1.1rem !important;
+  margin: 0 auto;
+  text-align: center;
+  width: 260px;
+}
+
+.my-name {
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 3rem !important;
+  font-weight: bold !important;
+  text-align: center;
+}
+
+.my-pic {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  width: 90px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .info-container {
+    width: 85%;
+  }
+
+  .main-container {
+    height: 80vh;
+  }
+
+  .my-name {
+    font-size: 3.5rem !important;
+  }
+
+  .my-intro {
+    font-size: 1.2rem !important;
+    width: 480px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .my-name {
+    font-size: 4rem !important;
+  }
+
+  .my-intro {
+    font-size: 1.2rem !important;
+    width: 500px;
+  }
+
+  .info-container {
+    width: 65%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .info-container {
+    width: 50%;
+  }
+
+  .my-intro {
+    font-size: 1.2rem !important;
+    width: 500px;
+  }
+
+  .my-pic {
+    width: 110px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .my-name {
+    font-size: 5rem !important;
+  }
+
+  .my-intro {
+    font-size: 1.5rem !important;
+    width: 600px;
+  }
+}
