@@ -1,33 +1,49 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Experiences.css";
+import experienceData from "../../data/experience.json";
+import Timeline from "@mui/lab/Timeline";
+import ExperienceElemWide from "./ExperienceElem/ExperienceElemWide";
+import ExperienceElemNarrow from "./ExperienceElem/ExperienceElemNarrow";
 
-class Experiences extends Component {
-  render() {
-    return (
+function Experiences() {
+  const [width, setWidth] = React.useState(window.innerWidth);
+  React.useEffect(() => {
+    window.addEventListener("resize", updateWidth);
+    return () => window.removeEventListener("resize", updateWidth);
+  });
+
+  const updateWidth = () => {
+    setWidth(window.innerWidth);
+  };
+  return (
+    <div>
       <div className="experiences-container">
-        <ul class="nav nav-tabs">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
-              Active
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Link
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Link
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
+        <h2 className="area-title-white">Experience</h2>
+        {width < 992 && (
+          <Timeline position="right" className="timeline">
+            {experienceData.map((eachExperience) => {
+              return (
+                <div>
+                  <ExperienceElemNarrow eachExperience={eachExperience} />
+                </div>
+              );
+            })}
+          </Timeline>
+        )}
+        {width >= 992 && (
+          <Timeline position="alternate" className="timeline">
+            {experienceData.map((eachExperience) => {
+              return (
+                <div>
+                  <ExperienceElemWide eachExperience={eachExperience} />
+                </div>
+              );
+            })}
+          </Timeline>
+        )}
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default Experiences;

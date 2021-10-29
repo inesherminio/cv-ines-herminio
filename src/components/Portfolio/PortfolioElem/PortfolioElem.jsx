@@ -13,10 +13,20 @@ class PortfolioElem extends Component {
           <p className="portfolio-description">{description}</p>
         </div>
         <div className="portfolio-links">
-          <a href={app_url} target="_blank" className="portfolio-link">
+          <a
+            href={app_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="portfolio-link"
+          >
             Check out {title}
           </a>
-          <a href={code_url} target="_blank" className="portfolio-link">
+          <a
+            href={code_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="portfolio-link"
+          >
             Check out the code
           </a>
         </div>

@@ -1,0 +1,63 @@
+.card-container {
+  box-shadow: none !important;
+  display: flex;
+  flex-direction: column;
+  margin: 1vh auto 1vh 0;
+  padding: 15px;
+  width: 95% !important;
+}
+
+.css-ha3bif-MuiTimelineItem-root:before {
+  -webkit-flex: 0 !important;
+}
+
+.date-info {
+  color: rgba(55, 57, 58, 0.396);
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+.description {
+  font-family: monospace;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.experience {
+  color: white;
+}
+
+.institution {
+  margin-bottom: 0;
+}
+
+.main-info-container {
+  text-align: left;
+}
+
+.main-info {
+  font-family: monospace;
+  text-align: left;
+}
+
+.tag-container {
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: 0;
+  width: max-content;
+}
+
+.tag-container p {
+  color: white;
+  font-family: monospace;
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0 5px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .card-container {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+  }
+}

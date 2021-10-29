@@ -1,5 +1,13 @@
 .experiences-container {
   background-color: white;
   height: max-content;
+  padding-bottom: 30px;
   width: 100%;
 }
+
+.timeline {
+  margin-top: 20px;
+  position: right !important;
+}
+
+

@@ -1,0 +1,104 @@
+[
+  {
+    "tag": {
+      "type": "Academic",
+      "color": "#FCA050"
+    },
+    "institution": "Ironhack",
+    "name": "Full Stack Web Development",
+    "description": [
+      "Responsive design with HTML, CSS and JavaScript",
+      "Backend: Server-side and data modeling complexity",
+      "Single-page applications using React.js and the MERN stack"
+    ],
+    "date": "Jun21 - Dec21",
+    "icon": "<FastfoodIcon />"
+  },
+  {
+    "tag": {
+      "type": "Academic",
+      "color": "#FCA050"
+    },
+    "institution": "SheCodes Academy",
+    "name": "Introduction to Coding",
+    "description": [
+      "Introduction to frontend development and development tools"
+    ],
+    "date": "May21"
+  },
+  {
+    "tag": {
+      "type": "Professional",
+      "color": "#df61d8"
+    },
+    "institution": "novobanco",
+    "name": "Marketing & Strategic Manager",
+    "description": [
+      "Boost initiatives for business development, report and control"
+    ],
+    "date": "Since Jul19"
+  },
+  {
+    "tag": {
+      "type": "Professional",
+      "color": "#df61d8"
+    },
+    "institution": "Tranquilidade",
+    "name": "Strategic Marketing Manager",
+    "description": [
+      "Distribution channel’s development, initiatives, report and control"
+    ],
+    "date": "Sep17 - Jul19"
+  },
+  {
+    "tag": {
+      "type": "Professional",
+      "color": "#df61d8"
+    },
+    "institution": "Galp Energia",
+    "name": "Analyst",
+    "description": ["New CRM Gas&Power project release"],
+    "date": "Nov16 - Sep17"
+  },
+  {
+    "tag": {
+      "type": "Professional",
+      "color": "#df61d8"
+    },
+    "institution": "Allianz Portugal",
+    "name": "Strategic Analyst",
+    "description": [
+      "Company’s performance analysis and control, internal and Group reporting, processes’ improvement and automation"
+    ],
+    "date": "Jul16 - Nov16"
+  },
+  {
+    "tag": {
+      "type": "Professional",
+      "color": "#df61d8"
+    },
+    "institution": "Allianz Portugal",
+    "name": "Claims Manager",
+    "description": ["Workers Compensation severe cases management"],
+    "date": "Feb14 - Jul16"
+  },
+  {
+    "tag": {
+      "type": "Academic",
+      "color": "#FCA050"
+    },
+    "institution": "NOVA School of Business and Economics",
+    "name": "Masters in Management",
+    "description": ["Major in Marketing"],
+    "date": "Sep12 - Jan14"
+  },
+  {
+    "tag": {
+      "type": "Academic",
+      "color": "#FCA050"
+    },
+    "institution": "NOVA School of Business and Economics",
+    "name": "Bachelor in Management",
+    "date": "Sep09 - Jul12"
+  }
+]

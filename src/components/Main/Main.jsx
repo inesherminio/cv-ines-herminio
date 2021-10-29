@@ -24,15 +24,24 @@ class Main extends Component {
             traveler ✈️, begginer drummer 🥁 and experienced fencer 🤺.
           </p>
           <div className="icon-container">
-            <a href="https://linkedin.com/in/ines-herminio" target="_blank">
+            <a
+              href="https://linkedin.com/in/ines-herminio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <BsLinkedin size={28} className="contact-icon" />
             </a>
-            <a href="https://github.com/inesherminio/" target="_blank">
+            <a
+              href="https://github.com/inesherminio/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <BsGithub size={28} className="contact-icon" />
             </a>
             <a
               href="mailto:inesherminio@gmail.com?subject = We want you!"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <MdEmail size={28} className="contact-icon" />
             </a>
