@@ -31,7 +31,7 @@ class Header extends Component {
               <a class="nav-link" href="#skills">
                 Skills
               </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#experience">
                 Experience
               </a>
             </div>

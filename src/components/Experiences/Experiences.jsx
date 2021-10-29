@@ -17,7 +17,7 @@ function Experiences() {
   };
   return (
     <div>
-      <div className="experiences-container">
+      <div className="experiences-container" id="experience">
         <h2 className="area-title-white">Experience</h2>
         {width < 992 && (
           <Timeline position="right" className="timeline">
