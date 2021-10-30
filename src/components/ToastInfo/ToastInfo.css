@@ -1,0 +1,19 @@
+.toast-icon {
+  margin-right: 5px;
+}
+
+.toast-text {
+  color: #212529;
+  display: inline;
+  text-decoration: none;
+}
+
+.toast-text:hover {
+  color: #212529;
+}
+
+@media (max-width: 990px) {
+  .toast-text {
+    font-size: 0.8rem !important;
+  }
+}

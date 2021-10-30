@@ -9,6 +9,7 @@ import particlesOptions from "./particles.json";
 import Porfolio from "./components/Portfolio/Porfolio";
 import Skills from "./components/Skills/Skills";
 import Experiences from "./components/Experiences/Experiences";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Porfolio />
       <Skills />
       <Experiences />
+      <Footer />
       <LowBar />
     </div>
   );
