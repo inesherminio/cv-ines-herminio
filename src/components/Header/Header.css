@@ -42,6 +42,11 @@
   justify-content: flex-end;
 }
 
+.nav-link-button {
+  background-color: transparent;
+  border: none;
+}
+
 .offcanvas-end {
   width: max-content !important;
 }

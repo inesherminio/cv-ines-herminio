@@ -8,7 +8,7 @@ import { MdEmail } from "react-icons/md";
 class Main extends Component {
   render() {
     return (
-      <div className="main-container" id="about-me">
+      <section className="main-container" id="about-me">
         <div className="info-container">
           <img
             src={photo}
@@ -47,7 +47,7 @@ class Main extends Component {
             </a>
           </div>
         </div>
-      </div>
+      </section>
     );
   }
 }

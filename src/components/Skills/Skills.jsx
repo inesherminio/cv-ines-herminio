@@ -58,7 +58,7 @@ const versionControl = [
 class Skills extends Component {
   render() {
     return (
-      <div className="skills-section" id="skills">
+      <section className="skills-section" id="skills">
         <h2 className="area-title-color">Skills</h2>
         <div className="skill-types">
           <div className="skills-container">
@@ -110,7 +110,7 @@ class Skills extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     );
   }
 }

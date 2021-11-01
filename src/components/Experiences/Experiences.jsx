@@ -16,8 +16,7 @@ function Experiences() {
     setWidth(window.innerWidth);
   };
   return (
-    <div>
-      <div className="experiences-container" id="experience">
+      <section className="experiences-container" id="experience">
         <h2 className="area-title-white">Experience</h2>
         {width < 992 && (
           <Timeline position="right" className="timeline">
@@ -41,8 +40,7 @@ function Experiences() {
             })}
           </Timeline>
         )}
-      </div>
-    </div>
+      </section>
   );
 }
 

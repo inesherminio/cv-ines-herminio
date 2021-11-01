@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Header.css";
-import CV from "../../assets/InesHerminio_en_oct21.pdf";
+import CV from "../../assets/InesHerminio_en_nov21.pdf";
 import Toast from "react-bootstrap/Toast";
 import ToastInfo from "../ToastInfo/ToastInfo";
 
@@ -31,7 +31,7 @@ function Header() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className="offcanvas offcanvas-end"
+            className="offcanvas offcanvas-end" 
             tabindex="-1"
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
@@ -50,7 +50,7 @@ function Header() {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <a className="nav-link" href="#about-me">
+                  <a className="nav-link" href="#about-me" >
                     About me
                   </a>
                 </li>
@@ -64,7 +64,7 @@ function Header() {
                     Skills
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item" style={{marginBottom: "10px"}}>
                   <a className="nav-link" href="#experience">
                     Experience
                   </a>
