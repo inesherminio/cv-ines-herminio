@@ -23,7 +23,7 @@
   },
   {
     "title": "Pet Log",
-    "description": "Pet Log is a mobile-first app, created to help pet owners manage their pets' life. With Pet Log, users can create a profile for each of their pets, and store important information about them. Pet Log is a full MERN stack application, and the final project of Ironhack's Web Development Bootcamp.",
+    "description": "Pet Log is a mobile-first app, created to help pet owners manage their pets' life. Users can create a profile for each of their pets, and store important information about them. Pet Log is a full MERN stack application, and the final project of Ironhack's Web Development Bootcamp.",
     "technologies": [
       "MongoDB",
       "Mongoose",
@@ -37,7 +37,7 @@
     "code_url": "https://github.com/inesherminio/pet-log-client"
   },
   {
-    "title": "Ética no Desporto",
+    "title": "Jogas com Ética?",
     "description": "Ética no Desporto is a project build for the Portuguese Fencing Federation, that aims to spread and approach ethics in sports within the fencing community. The app built is a 10-question quizz, which delivers a profile to the user at the end, as the result.",
     "technologies": [
       "MongoDB",
