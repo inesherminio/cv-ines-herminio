@@ -4,7 +4,13 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="source-code">
-      <p className="source-code-text">Website source code</p>
+      <a
+        href="https://github.com/inesherminio/cv-ines-herminio"
+        target="_blank"
+        className="source-code-link"
+      >
+        <p className="source-code-text">Website source code</p>
+      </a>
     </div>
   );
 }
