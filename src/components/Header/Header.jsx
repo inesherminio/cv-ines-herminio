@@ -24,14 +24,16 @@ function Header() {
           <button
             className="navbar-toggler"
             type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className="offcanvas offcanvas-end" 
+            className="offcanvas offcanvas-end"
             tabindex="-1"
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
@@ -50,7 +52,7 @@ function Header() {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <a className="nav-link" href="#about-me" >
+                  <a className="nav-link" href="#about-me">
                     About me
                   </a>
                 </li>
@@ -64,7 +66,7 @@ function Header() {
                     Skills
                   </a>
                 </li>
-                <li className="nav-item" style={{marginBottom: "10px"}}>
+                <li className="nav-item" style={{ marginBottom: "10px" }}>
                   <a className="nav-link" href="#experience">
                     Experience
                   </a>

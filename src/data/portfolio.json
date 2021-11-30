@@ -20,5 +20,34 @@
     ],
     "app_url": "https://filmate-app.herokuapp.com/",
     "code_url": "https://github.com/inesherminio/FilMate-app"
+  },
+  {
+    "title": "Pet Log",
+    "description": "Pet Log is a mobile-first app, created to help pet owners manage their pets' life. With Pet Log, users can create a profile for each of their pets, where they can store important information about them. Pet Log is the final project of Ironhack's Web Development Bootcamp, and had as purpose the implementation of a full MERN stack application.",
+    "technologies": [
+      "MongoDB",
+      "Mongoose",
+      "Express.js",
+      "Node.js",
+      "React JS",
+      "Axios",
+      "Leaflet"
+    ],
+    "app_url": "https://pet-log-app.herokuapp.com/",
+    "code_url": "https://github.com/inesherminio/pet-log-client"
+  },
+  {
+    "title": "Ética no Desporto",
+    "description": "Ética no Desporto is a project build for the Portuguese Fencing Federation, that aims to spread and approach ethics in sports within the fencing community. The app built is a 10-question quizz, which delivers a profile to the user at the end, as the result.",
+    "technologies": [
+      "MongoDB",
+      "Mongoose",
+      "Express.js",
+      "Node.js",
+      "React JS",
+      "Axios"
+    ],
+    "app_url": "http://www.fpe-eticadesporto.com/",
+    "code_url": "https://github.com/inesherminio/fpe-etica-no-desporto"
   }
 ]
