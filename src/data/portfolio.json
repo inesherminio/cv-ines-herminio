@@ -23,7 +23,7 @@
   },
   {
     "title": "Pet Log",
-    "description": "Pet Log is a mobile-first app, created to help pet owners manage their pets' life. With Pet Log, users can create a profile for each of their pets, where they can store important information about them. Pet Log is the final project of Ironhack's Web Development Bootcamp, and had as purpose the implementation of a full MERN stack application.",
+    "description": "Pet Log is a mobile-first app, created to help pet owners manage their pets' life. With Pet Log, users can create a profile for each of their pets, and store important information about them. Pet Log is a full MERN stack application, and the final project of Ironhack's Web Development Bootcamp.",
     "technologies": [
       "MongoDB",
       "Mongoose",
