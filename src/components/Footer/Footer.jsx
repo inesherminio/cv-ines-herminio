@@ -7,6 +7,7 @@ function Footer() {
       <a
         href="https://github.com/inesherminio/cv-ines-herminio"
         target="_blank"
+        rel="noreferrer"
         className="source-code-link"
       >
         <p className="source-code-text">Website source code</p>

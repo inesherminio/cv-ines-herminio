@@ -1,6 +1,30 @@
 [
   {
     "tag": {
+      "type": "Professional",
+      "color": "#df61d8"
+    },
+    "institution": "Momentum Free",
+    "name": "Full Stack Web Developer",
+    "description": [
+      "Hermes Protocol, dApp"
+    ],
+    "date": "Since Mar22"
+  },
+  {
+    "tag": {
+      "type": "Professional",
+      "color": "#df61d8"
+    },
+    "institution": "Relive",
+    "name": "Full Stack Web Developer",
+    "description": [
+      "App and website support"
+    ],
+    "date": "Feb22 - Mar22"
+  },
+  {
+    "tag": {
       "type": "Academic",
       "color": "#FCA050"
     },
@@ -36,7 +60,7 @@
     "description": [
       "Boost initiatives for business development, report and control"
     ],
-    "date": "Since Jul19"
+    "date": "Jul19 - Dec21"
   },
   {
     "tag": {

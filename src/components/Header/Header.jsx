@@ -1,13 +1,13 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "./Header.css";
-import CV from "../../assets/InesHerminio_en_dez21.pdf";
+import CV from "../../assets/InesHerminio_en_apr22.pdf";
 import Toast from "react-bootstrap/Toast";
 import ToastInfo from "../ToastInfo/ToastInfo";
 
 function Header() {
   const [show, setShow] = useState(false);
-  const [width, setWidth] = React.useState(window.innerWidth);
-  React.useEffect(() => {
+  const [width, setWidth] = useState(window.innerWidth);
+  useEffect(() => {
     window.addEventListener("resize", updateWidth);
     return () => window.removeEventListener("resize", updateWidth);
   });

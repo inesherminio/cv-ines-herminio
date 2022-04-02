@@ -20,6 +20,8 @@ import {
   react,
   socketIo,
   sql,
+  stripe,
+  typescript
 } from "../../assets/index";
 import SkillElem from "./SkillElem/HardSkillElem";
 
@@ -27,6 +29,7 @@ const main = [
   { name: "HTML5", logo: html },
   { name: "CSS3", logo: css },
   { name: "JavaScript(ES6)", logo: js },
+  { name: "Typescript", logo: typescript },
 ];
 const jsFramework = [
   { name: "Node.js", logo: node },
@@ -39,6 +42,7 @@ const jsLibrary = [
   { name: "React", logo: react },
   { name: "Socket.io", logo: socketIo },
   { name: "Leaflet", logo: leaflet },
+  { name: "Stripe", logo: stripe },
 ];
 const database = [
   { name: "SQL", logo: sql },

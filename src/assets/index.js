@@ -17,6 +17,8 @@ import postman from "./postman-logo.jpg";
 import react from "./react-logo.jpg";
 import socketIo from "./socketio-logo.jpg";
 import sql from "./sql-logo.jpg";
+import stripe from "./stripe-logo.png";
+import typescript from "./typescript-logo.png";
 import languagesEn from "./languages-en.jpg";
 import languagesPt from "./languages-pt.jpg";
 import languagesIt from "./languages-it.jpg";
@@ -42,6 +44,8 @@ export {
   react,
   socketIo,
   sql,
+  stripe,
+  typescript,
   languagesEn,
   languagesPt,
   languagesEs,
