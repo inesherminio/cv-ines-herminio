@@ -4,10 +4,10 @@
       "type": "Professional",
       "color": "#df61d8"
     },
-    "institution": "Momentum Free",
+    "institution": "Momentum One",
     "name": "Full Stack Web Developer",
     "description": [
-      "Hermes Protocol, dApp"
+      "Lead developer, both Frontend and BackendResponsible for the Backend implementation of Hermes Protocol - the first notification & communication platform for any on-chain (web3) alerts delivered on social media"
     ],
     "date": "Since Mar22"
   },
@@ -16,12 +16,12 @@
       "type": "Professional",
       "color": "#df61d8"
     },
-    "institution": "Relive",
-    "name": "Full Stack Web Developer",
+    "institution": "Ironhack",
+    "name": "Teaching Assistant",
     "description": [
-      "App and website support"
+      "Support students in and outside classes, for the Web Development cohort"
     ],
-    "date": "Feb22 - Mar22"
+    "date": "Since Mar22"
   },
   {
     "tag": {

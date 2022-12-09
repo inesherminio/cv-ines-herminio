@@ -18,6 +18,11 @@ import react from "./react-logo.jpg";
 import socketIo from "./socketio-logo.jpg";
 import sql from "./sql-logo.jpg";
 import stripe from "./stripe-logo.png";
+import faunaDb from "./fauna-logo.jpg";
+import cloudflare from "./cloudflare-logo.jpg";
+import nextJs from "./nextjs-logo.png";
+import graphQl from "./graphql-logo.png";
+import strapi from "./strapi-logo.png";
 import typescript from "./typescript-logo.png";
 import languagesEn from "./languages-en.jpg";
 import languagesPt from "./languages-pt.jpg";
@@ -50,4 +55,9 @@ export {
   languagesPt,
   languagesEs,
   languagesIt,
+  faunaDb,
+  cloudflare,
+  nextJs,
+  graphQl,
+  strapi
 };

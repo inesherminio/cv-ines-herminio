@@ -49,5 +49,17 @@
     ],
     "app_url": "http://www.fpe-eticadesporto.com/",
     "code_url": "https://github.com/inesherminio/fpe-etica-no-desporto"
+  },
+  {
+    "title": "Hermes Protocol",
+    "description": "The first notification & communication platform for any on-chain (web3) alerts delivered on social media, reducing the Fear Of Missing Out (FOMO) so intrinsic to that market. A product of Momentum One.",
+    "technologies": [
+      "React JS",
+      "FaunaDB",
+      "Express.js",
+      "Node.js",
+      "Cloudflare Workers"
+    ],
+    "app_url": "https://app.hermesprotocol.io/"
   }
 ]

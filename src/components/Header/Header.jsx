@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Header.css";
-import CV from "../../assets/InesHerminio_en_apr22.pdf";
+import CV from "../../assets/InesHerminio_en_dec22.pdf";
 import Toast from "react-bootstrap/Toast";
 import ToastInfo from "../ToastInfo/ToastInfo";
 

@@ -21,7 +21,12 @@ import {
   socketIo,
   sql,
   stripe,
-  typescript
+  typescript,
+  faunaDb,
+  cloudflare,
+  nextJs,
+  graphQl,
+  strapi,
 } from "../../assets/index";
 import SkillElem from "./SkillElem/HardSkillElem";
 
@@ -37,22 +42,27 @@ const jsFramework = [
   { name: "Handlebars", logo: hbs },
   { name: "Bootstrap", logo: bootstrap },
   { name: "Material UI", logo: materialUi },
+  { name: "Strapi", logo: strapi },
 ];
 const jsLibrary = [
   { name: "React", logo: react },
   { name: "Socket.io", logo: socketIo },
   { name: "Leaflet", logo: leaflet },
   { name: "Stripe", logo: stripe },
+  { name: "Next.js", logo: nextJs },
 ];
 const database = [
   { name: "SQL", logo: sql },
   { name: "MongoDB", logo: mongoDb },
   { name: "Mongoose", logo: mongoose },
+  { name: "FaunaDB", logo: faunaDb },
 ];
 const backend = [
   { name: "Postman", logo: postman },
   { name: "Axios", logo: axios },
   { name: "REST API", logo: api },
+  { name: "GraphQl", logo: graphQl },
+  { name: "Cloudflare Workers", logo: cloudflare },
 ];
 const versionControl = [
   { name: "GitHub", logo: github },
