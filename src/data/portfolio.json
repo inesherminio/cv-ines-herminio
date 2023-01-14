@@ -18,7 +18,7 @@
       "Axios",
       "Socket.io"
     ],
-    "app_url": "https://filmate-app.herokuapp.com/",
+    "app_url": "https://filmate.onrender.com/",
     "code_url": "https://github.com/inesherminio/FilMate-app"
   },
   {
@@ -33,7 +33,7 @@
       "Axios",
       "Leaflet"
     ],
-    "app_url": "https://pet-log-app.herokuapp.com/",
+    "app_url": "https://pet-log.onrender.com/",
     "code_url": "https://github.com/inesherminio/pet-log-client"
   },
   {
@@ -47,7 +47,7 @@
       "React JS",
       "Axios"
     ],
-    "app_url": "http://www.fpe-eticadesporto.com/",
+    "app_url": "https://fpe-etica-no-desporto.onrender.com/",
     "code_url": "https://github.com/inesherminio/fpe-etica-no-desporto"
   },
   {
