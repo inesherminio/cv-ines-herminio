@@ -20,10 +20,9 @@ class Main extends Component {
           <p className='my-intro'>
             I am a{' '}
             <span className='highlited-info'>Full Stack Web Developer</span> 👩‍💻,
-            with a background in Marketing and Strategy 👩‍💼. <br />I am an
-            analytic, but also creative person, responsible and curious 🛠️. I love
-            to travel ✈️, was on the National Fencing team for 20y 🤺 and am now
-            a newbie on Crossfit 🏋.
+            with a background in Marketing and Strategy 👩‍💼. <br />
+            I'm analytic, but also creative, responsible and curious 🛠️. I am
+            also a traveler ✈️, experienced fencer 🤺 and Crossfit newbie 🏋.
           </p>
           <div className='icon-container'>
             <a
