@@ -4,12 +4,24 @@
       "type": "Professional",
       "color": "#df61d8"
     },
+    "institution": "ConnectMyApps",
+    "name": "Software Developer",
+    "description": [
+      "Building the company's platform which facilitates integrations between applications, through the development of Javascript workflows, some specifically designed for clients' needs, other as general as possible to fit the general needs. In addition to development, my responsibilities include research and testing - both unit testing and end-to-end with client"
+    ],
+    "date": "Since May23"
+  },
+  {
+    "tag": {
+      "type": "Professional",
+      "color": "#df61d8"
+    },
     "institution": "Momentum One",
     "name": "Full Stack Web Developer",
     "description": [
       "Lead developer, both Frontend and BackendResponsible for the Backend implementation of Hermes Protocol - the first notification & communication platform for any on-chain (web3) alerts delivered on social media"
     ],
-    "date": "Since Mar22"
+    "date": "Mar22 - May23"
   },
   {
     "tag": {
@@ -21,7 +33,7 @@
     "description": [
       "Support students in and outside classes, for the Web Development cohort"
     ],
-    "date": "Since Mar22"
+    "date": "Mar22 - Mar23"
   },
   {
     "tag": {
